@@ -51,7 +51,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Lazygit
     Plug 'kdheepak/lazygit.nvim', { 'branch': 'nvim-v0.4.3' }
-
+    "Nerd Plug
+    Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
