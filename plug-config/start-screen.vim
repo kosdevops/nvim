@@ -38,8 +38,8 @@ let g:webdevicons_enable_startify = 1
 let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
+            \ { 'z': '~/.bashrc' },
+            \ '~/projects',
+            \ '~/code',
+            \ '~/pics',
             \ ]
