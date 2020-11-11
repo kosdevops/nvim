@@ -38,6 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     " Snippets 
     Plug 'honza/vim-snippets'
+    " Emmet
+    Plug 'mattn/emmet-vim'
     " Startify
     Plug 'mhinz/vim-startify'
     " Git
