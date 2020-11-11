@@ -12,3 +12,4 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/lazygit.vim
+source $HOME/.config/nvim/plug-config/emmet.vim
