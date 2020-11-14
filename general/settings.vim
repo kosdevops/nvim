@@ -4,7 +4,7 @@ let g:webdevicons_enable = 1
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
-" set nowrap                              " Display long lines as just one line
+set nowrap                              " Display long lines as just one line
 set encoding=UTF-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
@@ -34,8 +34,15 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-"set autochdir                           " Your working directory will always be the same as your working directory
+"set autochdir                          " Your working directory will always be the same as your working directory
 set incsearch
+
+set guicursor=n-v-c:underline,i-ci-ve:ver25,r-cr:hor20,o:hor50
+		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+
+"Cursor underline
+:hi CursorLine gui=underline            
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

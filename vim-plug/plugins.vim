@@ -2,8 +2,8 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
-  "autocmd VimEnter * PlugInstall | source $MYVIMRC
+  autocmd VimEnter * PlugInstall
+  autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
@@ -17,7 +17,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " One Dark
     " Plug 'joshdick/onedark.vim'
     " Purify
-     Plug 'kyoz/purify', { 'rtp': 'vim' } 
+    " Plug 'kyoz/purify', { 'rtp': 'vim' } 
+    "Jelly Bean
+    Plug 'nanotech/jellybeans.vim', { 'tag': 'v1.7' }
+    "Rainbow Level
+    Plug 'thiagoalessio/rainbow_levels.vim'
+    " Yggdroot / indentline
+    Plug 'yggdroot/indentline'
     " COC
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -58,4 +64,4 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
-colorscheme purify
+colorscheme jellybeans
