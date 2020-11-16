@@ -47,3 +47,7 @@ nnoremap <Leader>O O<Esc>^Da
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
 
+" Bracey
+nnoremap <leader>i :Bracey<cr>
+nnoremap <leader>I :BraceyStop<cr>
+
