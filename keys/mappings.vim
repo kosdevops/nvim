@@ -49,5 +49,6 @@ vnoremap <space>/ :Commentary<CR>
 
 " Bracey
 nnoremap <leader>i :Bracey<cr>
+nnoremap <leader>ii :BraceyReload<cr>
 nnoremap <leader>I :BraceyStop<cr>
 
