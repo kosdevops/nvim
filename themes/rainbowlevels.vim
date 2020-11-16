@@ -1,4 +1,5 @@
-au FileType html,css,javascript,python,php,xml,yaml :RainbowLevelsOn
+nnoremap <leader>l :RainbowLevelsToggle<cr>
+" au FileType html,css,javascript,python,php,xml,yaml :RainbowLevelsOn
 
 hi! link RainbowLevel0 Constant
 hi! link RainbowLevel1 Type
