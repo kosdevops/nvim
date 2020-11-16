@@ -7,7 +7,7 @@ let g:startify_custom_header = [
         \ '   888  88888 888     888 888 Y88b888',
         \ '   888    888 888     888 888  Y88888',
         \ '   Y88b  d88P Y88b. .d88P 888   Y8888',
-        \ '    "Y8888P88  "Y88888P"  888    Y888',
+        \ '    "Y8888P8   "Y88888P"  888    Y888',
         \]
 
 let g:startify_session_dir = '~/.config/nvim/session'
