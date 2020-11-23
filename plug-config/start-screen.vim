@@ -39,7 +39,7 @@ let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.bashrc' },
-            \ '~/projects',
             \ '~/code',
-            \ '~/pics',
+            \ '~/Downloads',
+            \ '~/opt',
             \ ]

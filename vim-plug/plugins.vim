@@ -61,7 +61,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
       Plug 'kdheepak/lazygit.nvim', { 'branch': 'nvim-v0.4.3' }
     "Nerd Plug
       Plug 'ryanoasis/vim-devicons'
-
+    " SASS
+      Plug 'tpope/vim-haml'
+    " Tagalong
+      Plug 'andrewradev/tagalong.vim'
 call plug#end()
 
 colorscheme jellybeans
