@@ -8,7 +8,7 @@ nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
-" I hate escape more than anything else
+" esc alternatives
 inoremap jk <Esc>
 inoremap kj <Esc>
 
